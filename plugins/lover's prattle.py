@@ -8,7 +8,7 @@ import aiohttp
 
 
 
-qinghua = on_command('说句话',rule=to_me(),priority=5)
+qinghua = on_command('说句情话',rule=to_me(),priority=5)
 
 @qinghua.handle()
 async def _(bot: Bot,event:Event,state: T_State):
